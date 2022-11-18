@@ -1,0 +1,176 @@
+body{
+  margin:0px;
+  padding:0px;
+}
+/*add black background to navigation bar*/
+.topnav{
+  background-color: #21222A;
+  text-align: center;
+  color:white;
+  overflow:hidden;
+  display:flex;
+  }
+  
+  /*style link in navigation bar*/
+  .topnav a{
+  margin-left:0px;
+  color:#f2f2f2;
+  float:left;
+  text-align:center;
+  padding:23px 110px;
+  text-decoration:none;
+  font-size:18px;
+  }
+
+
+  /*change link color on hover*/
+  .topnav a:hover{
+  background-color:#ddd;
+  color:black;
+  }
+  
+  /*add color to active link*/
+  .topnav a.active{
+  background-color:green;
+  color:white;
+  }
+
+#nav{
+   display:flex;
+   padding-top:0px;
+   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+
+   align-items:center;
+   background-color:#21222A;
+
+   color:white;
+}
+
+.about{
+   margin-right:auto;
+   font-size:1.25rem;
+   font-weight:800;
+}
+
+.welcome{
+  padding-left:500px;
+  font-size: 1.3rem;
+}
+.head-min{
+margin-right:10px;
+font-weight:800;
+font-size: 1.2rem;
+}
+
+.form{
+padding-left:400px;
+margin:10px;
+font-weight:800;
+}
+
+.home{
+font-size:1.25rem;
+padding-right:30px;
+padding-left:30px;
+font-weight:800;
+}
+
+.image{
+padding-left:30px;
+}
+
+
+
+#inner{
+display:flex;
+margin:8px;
+padding-left:470px;
+}
+
+#block-btn{
+background-color:red;
+color:white;
+padding:10px 40px;
+margin-right:70px;
+border-radius:8px;
+cursor: pointer;
+}
+
+
+#inner2{
+border-radius:8px;
+color:white;
+padding:10px 20px;
+background-color:blue;
+cursor:pointer;
+}
+
+
+#urlsites{
+margin-left:105px;
+margin-top:10px;
+margin-bottom:10px;
+padding:8px 20px;
+border-radius:8px;
+}
+
+#password{
+margin-top:10px;
+margin-bottom:10px;
+margin-right:10px;
+margin-left:30px;
+padding:8px 20px;
+border-radius:8px;
+}
+
+#passwordrepeat{
+margin-top:10px;
+margin-bottom:30px;
+margin-right:10px;
+margin-left:7px;
+padding:8px 20px;
+border-radius:8px;
+}
+
+#unblock{
+background-color:green;
+color:white;
+padding:10px 30px;;
+border-radius:8px;
+margin-left:570px;
+margin-top:20px;
+cursor:pointer;
+}
+#footer{
+font-weight:800;
+margin-left:550px;
+margin-top:120px;
+}
+
+.sign{
+  
+  height:450px;
+  display:flex;
+margin-left:110px;
+}
+
+.form1{
+border:solid 3px;
+margin:5px;
+
+}
+
+.form2{
+border:solid 3px;
+margin:5px;
+
+}
+.head1{
+color:whitesmoke;
+font-weight:1200;
+margin-left:500px;
+}
+
+.about-flex{
+  display:flex;
+}

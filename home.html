@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css"></link>
+<script src="https://www.gstatic.com/firebasejs/9.9.0/firebase.js"></script>
+ <title>Site Blocker</title>
+</head>
+<body style="background-color:black;" id="bodey">
+  
+<div class = "topnav">
+ 
+  <a class = "active" href="home.html"> HOME</a>
+  <a href = "about.html" style="margin-right:auto;"> About</a>
+  
+  
+  <div>
+    <a href ="profile.html" >Alvine</a>
+    
+  </div>
+</div>
+  <h3 style="color:white;" class="welcome">Welcome To Site Blocker</h3><br>
+
+<div class="form">
+  <label for="head-min" style="color:blue;"class="head-min">Enter Site URL*:</label>
+  <input id="urlsites" type="text" placeholder="e.g https://www.facebook.com"/><br>
+  <label for="password-min" style="color:blue;"class="head-min">Enter Unblock Password*:</label>
+  <input id="password" type="password" placeholder="***********"/><br>
+  <label for="password-min" style="color:blue;"class="head-min">Confirm Unblock Password*:</label>
+  <input id="passwordrepeat" type="password" placeholder="***********"/><br>
+  <button id="btnclick" onclick="end()">Clicked</button>
+</div>
+<div id="inner">
+  <button id="block-btn" onclick="addElement()">BLOCK</button>
+
+  <button id="inner2" onclick="document.location='blockedSites.html'" style="color: white;">List Of Blocked Sites</button><br>
+</div>
+<button id="unblock" onclick="document.location='unblock1.html'">Unblock a Site</button><br>
+  <footer style="color:whitesmoke;" id="footer"><small>Copyright 2022 @Arizona Tech</small></footer>
+
+
+<script src="index.js"></script>
+</body>
+</html>

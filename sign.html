@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SignIn/SignUp</title>
+<script src="https://www.gstatic.com/firebasejs/9.9.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.9.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.9.0/firebase-database.js"></script>
+<link rel="stylesheet" href="style.css"></link>
+</head>
+<body style="background-color:black">
+<h2 class="head1">Welcome To Authenticity Website</h2>
+<div class="sign">
+  <div class="form1" style="background-color:#21222A;">
+     <label for="signInEmail" style="margin-left:50px; font-size:1.15rem; color:yellowgreen; font-weight:800;">Email*:</label>
+     <input type="text" id="signInEmail" onblur="checkSignInEmail()"style="margin:80px; padding:10px; border-radius:5px;"/><br>
+
+     <label for="password" style="margin-left:50px; font-size:1.15rem; color:yellowgreen; font-weight:800;">Password*:</label>
+     <input type="password" id="signInPassword" placeholder="*********" style="margin-left:55px; margin-top:30px; padding:10px; border-radius:5px;"/><br>
+     <button onclick="signIn()" style="margin-left:200px; margin-top:50px; cursor:pointer; margin-bottom:20px; padding:15px 35px; border-radius:5px; background-color:green; color:white;">Sign In</button><br>
+     <div>
+     <a href="passwordreset.html" style="color:yellowgreen; margin-left:180px; ">Forgot Password?</a>
+     </div>
+  </div>
+ <div class="form2"style="background-color:#21222A;">
+     <label for="email" style="margin-left:50px; font-size:1.15rem; color:yellowgreen; font-weight:800;">Email*:</label>
+     <input type="text" id="signUpEmail" onblur="checkUserEmail()"style="margin-right:100px; margin-left:125px; margin-bottom:20px; margin-top:100px; padding:10px; border-radius:5px;"/><br>
+     <label for="password" style="margin-left:50px; font-size:1.15rem; color:yellowgreen; font-weight:800;">Password*:</label>
+     <input type="password" id="signUpPassword" placeholder="*********" style="margin-left:100px; margin-top:20px; padding:10px; border-radius:5px;"/><br>
+
+     <label for="password" style="margin-left:50px; font-size:1.15rem; color:yellowgreen; font-weight:800;">Confirm Password*:</label>
+     <input type="password" id="signUpPasswordRepeat" onblur="checkUserPassword()" placeholder="*********" style="margin-left:30px; margin-top:30px; padding:10px; border-radius:5px;"/><br>
+
+     <button onclick="signUp()" style="margin-left:200px; margin-top:40px; padding:15px 35px; border-radius:5px; cursor:pointer; background-color:green; color:white;">Sign Up</button><br>
+  </div>
+</div>
+<script src="index.js"></script>
+
+</body>
+</html>
