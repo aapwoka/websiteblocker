@@ -174,3 +174,13 @@ margin-left:500px;
 .about-flex{
   display:flex;
 }
+
+.about-details{
+  align-items:center;
+  border-radius:5px;
+  text-align:center;
+  padding:10px;
+  margin:8px;
+  background-color:black;
+  color:white;
+}
