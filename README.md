@@ -1,2 +1,2 @@
 # websiteblocker
-Block distracting websites.
+Block distracting websites free.
